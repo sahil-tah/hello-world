@@ -1,3 +1,7 @@
+/*
+Time Complexity - O(log n) for worst and average case
+		  O(1) for best case
+*/
 #include<iostream>
 using namespace std;
 
