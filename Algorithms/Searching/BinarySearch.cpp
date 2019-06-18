@@ -2,17 +2,15 @@
 Time Complexity - O(log n) for worst and average case
 		  O(1) for best case
 */
+
 #include<iostream>
 using namespace std;
-
-int n,left,right,mid,i,s_ele;
-
 
 int binary_search(int arr[],int left,int right,int s_ele)
 {
 	if(right >= left)
 	{
-		mid = left + (right-left)/2;
+		int mid = left + (right-left)/2;
 		
 		if(arr[mid] == s_ele )
 			return mid;
@@ -30,19 +28,21 @@ int binary_search(int arr[],int left,int right,int s_ele)
 
 int main()
 {
+	int n,s_ele;
+
 	cout<<"Enter the number of elements in array: ";
 	cin>>n;
 	
 	int arr[n];
 	
 	cout<<"Enter the elemnts of array:\n";
-	for(i=0; i<n; i++)
+	for(int i=0; i<n; i++)
 	{
 		cin>>arr[i];
 	}
 	
 	cout<<"Elements of array are : ";
-	for(i=0; i<n; i++)
+	for(int i=0; i<n; i++)
 	{
 		cout<<arr[i]<<" ";
 	}
