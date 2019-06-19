@@ -1,7 +1,7 @@
 # Hello-World 
  
 A simple repository to help me learn:
-* GIT 
+* [Git and GitHub](Git) 
 * [Data Structures](Data%20Structure)
   - [Linked List](Data%20Structure/Linked-List)
   - [Stack](Data%20Structure/Stack)
