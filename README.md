@@ -9,4 +9,5 @@ A simple repository to help me learn:
   
 * [Algorithms](Algorithms)
   - [Searching](Algorithms/Searching)
-  - [Sorting](Algorithms/Sorting) 
+  - [Sorting](Algorithms/Sorting)
+  - [Greedy](Algorithms/Greedy)
