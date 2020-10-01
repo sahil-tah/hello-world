@@ -1,4 +1,9 @@
 /*
+definition of Bubble sort
+Bubble Sort:-
+Bubble sort is the simplest technique in which we compare every element with its adjacent element and swap the elements if they are not in order. 
+This way at the end of every iteration (called a pass), the heaviest element gets bubbled up at the end of the list.
+
 Time Complexity - O(n^2)
 */
 
