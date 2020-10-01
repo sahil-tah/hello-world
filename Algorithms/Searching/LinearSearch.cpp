@@ -1,5 +1,6 @@
 /*
 Time Complexity - O(n)
+Space Complexity -O(1)
 */
 
 #include <iostream>
@@ -24,15 +25,15 @@ int main(){
 		cin>>arr[i];
 	}
 
-	cout<<"Enter the number to be searched: ";
+	cout<<"Enter the number to be searched in the array: ";
 	cin>>search;
 
 	int flag = linearSearch(arr, n, search);
 
 	if (flag == -1)
-		cout<<search<<" not found"<<endl;
+		cout<<search<<" element not found"<<endl;
 	else
-		cout<<search<< " found at postition "<<flag<<endl;
+		cout<<search<< " element found at postition "<<flag<<endl;
 
 	return 0;
 }
